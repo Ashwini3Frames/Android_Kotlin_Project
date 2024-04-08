@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_up_page">sign up page</string>
+    <string name="Full_Name">Full_Name</string>
+    <string name="Sign_Up">Sign_Up</string>
+    <string name="Email">Email</string>
+    <string name="Phone_Number">Phone_Number</string>
+    <string name="Male">Male</string>
+    <string name="Password">Password</string>
+    <string name="Female">Female</string>
+    <string name="Update">Update</string>
+    <string name="Delete">Delete</string>
+    <string name="View">View</string>
+    <string-array name="roles_array">
+        <item>Select Role</item>
+        <item>Software intern</item>
+        <item>Senior Developer</item>
+        <item>junior developer</item>
+        <!-- Add more roles as needed -->
+    </string-array>
+</resources>
