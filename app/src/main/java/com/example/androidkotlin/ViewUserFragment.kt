@@ -40,7 +40,8 @@ class ViewUserFragment : Fragment() {
                 view.findViewById<TextView>(R.id.genderTextView).text = it.gender
                 view.findViewById<TextView>(R.id.roleTextView).text = it.role
                 // Find the ImageView in your layout file
-                val imageView = view.findViewById<ImageView>(R.id.imageView)
+                val imageView = view.findViewById<ImageView>(R.id.profileImageView)
+
 
                 // Load and display the image
 //                if (it.profilePicture != null) {
@@ -56,7 +57,7 @@ class ViewUserFragment : Fragment() {
                             0,
                             it.profilePicture.size
                         )
-                        imageView.setImageBitmap(bitmap)
+                        imageView?.setImageBitmap(bitmap)
                     } else {
                         // If profile picture is null, set a placeholder image or handle the case accordingly
                         imageView?.setImageResource(R.drawable.profile_pic)
